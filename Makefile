@@ -4,7 +4,6 @@
 STD=-std=c11
 # specify C compiler
 # specify optimization information
-OPT=-O3 -mtune=generic -pipe
 # specify compile flags
 CFLAGS=-Wall -Wextra -pedantic $(OPT)
 # preprocessor flags (needed for M_PI)
