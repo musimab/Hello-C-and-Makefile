@@ -9,7 +9,7 @@ CFLAGS=-Wall -Wextra -pedantic $(OPT)
 # preprocessor flags (needed for M_PI)
 CPPFLAGS=-D_XOPEN_SOURCE=500
 # specify link flags
-LDFLAGS=
+LDFLAGS=-Wl,--hash-style=gnu
 # specify libraries
 LIBS=-lm
 
