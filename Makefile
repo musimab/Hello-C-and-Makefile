@@ -3,7 +3,7 @@
 # specify C standard
 STD=-std=c11
 # specify C compiler
-CC=gcc $(STD)
+CC=
 # specify optimization information
 OPT=-O3 -mtune=generic -pipe
 # specify compile flags
